@@ -2,7 +2,7 @@
 Grant 4가지 인증 방식이 적용되는 사례 각각 1개 이상(총 4개) 찾기
 
 1. Authorization Code Grant(권한 부여 승인 코드 방식)
-   •사용처: Google, Facebook, Twitter 로그인을 통한 SSO(Single Sign-On)
+   •사용처: Google, Facebook, Twitter 로그인을 통한 SSO(Single Sign-On)<hr>
    •이유:
    a) 높은 보안성: Google OAuth 로그인은 사용자의 Google 계정 ID와 비밀번호를 클라이언트 애플리케이션에 노출하지 않는다. 이를 통해 보안 리스크가 줄일 수 있다.
    b) 확장성과 환경 지원: Google OAuth는 클라이언트 애플리케이션이 인증 서버와 통신할 수 있는 모든 환경에서 사용 가능하도록 설계되었기 때문에 동일한 인증 방식을 여러 디바이스 및 플랫폼에서 일관되게 사용할 수 있다.
